@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@300&family=Joan&family=Rajdhani&family=Source+Code+Pro:wght@300&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row{
+    margin: 5px 0;
+    width: 82vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row input{
+    width: 290px;
+    font-size: 20px;
+    margin: 0px;
+    padding:10px 38px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
